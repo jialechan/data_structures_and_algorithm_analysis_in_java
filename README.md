@@ -2,11 +2,12 @@
 
 * [最大子序列和问题](https://github.com/jialechan/data_structures_and_algorithm_analysis_in_java#%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E9%97%AE%E9%A2%98)
 
-## 最大子序列和问题(分析算法运行时间经典例子)
+## 最大子序列和问题
+```txt
 给定（可能有负数）整数序列A1, A2, A3..., An求这个序列中子序列和的最大值。   
 （为方便起见，如果所有整数均为负数，则最大子序列和为0）。   
 例如：输入整数序列： -2, 11, 8, -4, -1, 16, 5, 0，则输出答案为35，即从A2～A6。
-
+```
 ### 算法一：穷举法
 ```java
 public static int maxSub(int[] a) {

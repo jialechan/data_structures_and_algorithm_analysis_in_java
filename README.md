@@ -1,6 +1,6 @@
 # 数据结构与算法分析知识整理
 
-* [最大子序列和问题](https://github.com/jialechan/data_structures_and_algorithm_analysis_in_java/blob/master/README.md#%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E9%97%AE%E9%A2%98)
+* [最大子序列和问题](https://github.com/jialechan/data_structures_and_algorithm_analysis_in_java/#%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E9%97%AE%E9%A2%98)
 
 ## 最大子序列和问题
 分析算法运行时间经典例子

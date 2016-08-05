@@ -1,2 +1,3 @@
-# data_structures_and_algorithm_analysis_in_java
-数据结构与算法分析－－JAVA语言描述
+# 数据结构与算法分析知识整理
+
+* 最大子序列和问题

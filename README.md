@@ -46,10 +46,10 @@ public static int maxSub(int a[]) {
 ```
 时间复杂度为O(N^2)
 ### 算法三：分治
-最大子序列的和只可能出现在3个地方：
-1. 出现在输入数据的左半部分
-2. 出现在输入数据的右半部分
-3. 跨越输入数据的中部而位于左右两个部分
+最大子序列的和只可能出现在3个地方：   
+1. 出现在输入数据的左半部分   
+2. 出现在输入数据的右半部分   
+3. 跨越输入数据的中部而位于左右两个部分   
 前两种情况可以递归求解，第三种情况的最大和可以通过求出前半部分（包含前半部分的最后一个元素）的最大和以及后半部分（包括后半部分的第一个元素）的最大和，再将二者相加得到。
 ```java
 public int maxSub(int[] a,int left,int right) {  
@@ -90,7 +90,7 @@ public int max(int ...args) {
 时间复杂度为O(NlogN)
 ### 算法四：
 ```java
-public int maxSubLinear(int[] a) {  
+public int maxSub(int[] a) {  
     int sum = 0,maxSum =0;  
     for(int i=0;i<a.length;i++) {  
         sum +=a[i];  

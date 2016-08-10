@@ -106,3 +106,7 @@ public int maxSub(int[] a) {
 ```
 时间复杂度为O(N)
 
+## 表、栈和队列
+### 表（List）
+* ArrayList查找时间为O(1)，添加／删除最差时间为O(N)
+* LinkedList查找为O(N)，添加／删除最差时间为O(1)

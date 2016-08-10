@@ -1,6 +1,7 @@
 # 数据结构与算法分析知识整理
 
 * [最大子序列和问题](https://github.com/jialechan/data_structures_and_algorithm_analysis_in_java#%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E9%97%AE%E9%A2%98)
+* [表、栈和队列](https://github.com/jialechan/data_structures_and_algorithm_analysis_in_java/blob/master/README.md#%E8%A1%A8%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97)
 
 ## 最大子序列和问题
 ```txt
@@ -110,9 +111,11 @@ public int maxSub(int[] a) {
 ### 表（List）
 * ArrayList查找时间为O(1)，添加／删除最差时间为O(N)
 * LinkedList查找为O(N)，添加／删除最差时间为O(1)
+
 ### 栈（Stack）
 * 用表实现
 * 后进先出
+
 ### 队列（Queue）
 * 用表实现
 * 先进先出

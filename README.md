@@ -110,3 +110,9 @@ public int maxSub(int[] a) {
 ### 表（List）
 * ArrayList查找时间为O(1)，添加／删除最差时间为O(N)
 * LinkedList查找为O(N)，添加／删除最差时间为O(1)
+### 栈（Stack）
+* 用表实现
+* 后进先出
+### 队列（Queue）
+* 用表实现
+* 先进先出
